@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "worker-queue",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write 'src/**/*.{js,css,json,md}'"
+  },
+  "author": "Emanuel Júnior <emanuelmpjr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "itty-router": "^2.4.4",
+    "itty-router-extras": "^0.4.2",
+    "uuid": "^8.3.2"
+  }
+}
